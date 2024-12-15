@@ -5,7 +5,7 @@ import bcrypt from "bcrypt";
 
 const app = express();
 const port = 3000;
-const saltrounds=2;
+const saltrounds=10;
 
 const db = new pg.Client({
   user: "postgres",
